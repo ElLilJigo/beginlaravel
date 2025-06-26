@@ -9,8 +9,8 @@
                 <div class="col">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $note->title }}</h5>
-                            <p class="card-text">{{ $note->content }}</p>
+                            <h5 class="card-title"> {{ $note->title }}</h5>
+                            <p class="card-text"> {{ $note->content }}</p>
 
                             <a href="/notes/{{ $note->id }}/edit" class="btn btn-sm btn-outline-primary">Modifier</a>
 
